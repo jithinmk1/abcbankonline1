@@ -16,4 +16,5 @@ rm -rf .gradle
 echo "Running gradle script to build the project..."
 cd /var/lib/jenkins/workspace/abcbankonline1
 nohup gradle bootRun >> /tmp/bootRun.log 2>&1 &
-© 2020 GitHub, Inc.
+
+
