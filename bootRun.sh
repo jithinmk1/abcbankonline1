@@ -1,6 +1,6 @@
 #clean current process running on 8080
 echo "killing current process running on 8080..."
-fuser -n tcp -k 9090
+fuser -n tcp -k 8080
 
 #test comment to test the auto builds
 echo "Test# 30"
