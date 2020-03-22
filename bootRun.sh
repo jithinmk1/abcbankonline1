@@ -1,5 +1,5 @@
-#clean current process running on 9090
-echo "killing current process running on 9090..."
+#clean current process running on 8080
+echo "killing current process running on 8080..."
 fuser -n tcp -k 9090
 
 #test comment to test the auto builds
@@ -14,6 +14,6 @@ rm -rf .gradle
 
 #run spring boot in background
 echo "Running gradle script to build the project..."
-cd /var/lib/jenkins/workspace/abcbankingonline
+cd /var/lib/jenkins/workspace/abcbankonline1
 nohup gradle bootRun >> /tmp/bootRun.log 2>&1 &
 © 2020 GitHub, Inc.
